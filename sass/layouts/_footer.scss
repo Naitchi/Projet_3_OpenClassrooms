@@ -1,0 +1,12 @@
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: green;
+
+    &__content{
+        color: yellow;
+        font-size: 2rem;
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "animationtest",
+  "version": "1.0.0",
+  "description": "je teste pour le cours du p3",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/style.css"
+  },
+  "author": "Naitchi",
+  "license": "ISC"
+}
