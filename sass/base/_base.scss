@@ -1,4 +1,12 @@
 *{
+    font-family: 'Roboto', sans-serif;
     margin:0px;
     padding:0px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }

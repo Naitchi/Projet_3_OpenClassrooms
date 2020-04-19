@@ -2,12 +2,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 200px;
+    min-height: 244px;
     background-color: $main-color;
     width: 100%;
+    border-bottom: solid $border-color 1px;
 
     &__title{
-        font-size: 3rem;
-        color: yellow;
+        font-size: 6.5rem;
+        font-weight: bold;
+        color: $secondary-color;
     }
 }   
