@@ -1,3 +1,26 @@
 $main-color: #579C87; 
 $secondary-color: #FDCB46;
 $border-color: #74AA85;
+
+//variables color menus:
+
+$background-color_menu1: #FCDFDB;
+$f-color_menu1:#3D1319 ;
+
+$background-color_menu2: #FFF5FE;
+$f-color_menu2:#C77412 ;
+//dégrader de : EAA144 à 8F5AFF
+
+$background-color_menu3:#F9F9F9;
+$f-color_menu3:#0887FB ;
+// dégrader de : 0526DB à 5BAEFB
+
+$background-color_menu4: #FDFFFD;
+$f-color_menu4:#72BF56;
+// dégrader de : 3E923A à BEFF7F
+
+//Media quieres 
+$breakpoints : (
+    mobile:599px,
+    tablette:1200px
+);
