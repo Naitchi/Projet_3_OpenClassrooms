@@ -18,3 +18,18 @@
         padding: 0 48px 0 40px;
     }
 }
+
+@include screen-lg {
+    .footer{
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@include screen-sm{
+    .footer{
+        &__content{
+            font-size: 1.9rem;
+        }
+    }
+}

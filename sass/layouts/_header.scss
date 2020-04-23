@@ -13,3 +13,13 @@
         color: $secondary-color;
     }
 }   
+
+@include screen-sm {
+    .header{
+        min-height: 150px;
+
+        &__title{
+            font-size: 4rem;
+        }
+    }
+}

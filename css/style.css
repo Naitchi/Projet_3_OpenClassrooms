@@ -1,3 +1,14 @@
+@keyframes soon {
+  0% {
+    margin-bottom: 0px;
+  }
+  50% {
+    margin-bottom: 100px;
+  }
+  100% {
+    margin-bottom: 0px;
+  }
+}
 * {
   font-family: "Roboto", sans-serif;
   margin: 0px;
@@ -26,6 +37,14 @@ body {
   color: #FDCB46;
 }
 
+@media screen and (max-width: 576px) {
+  .header {
+    min-height: 150px;
+  }
+  .header__title {
+    font-size: 4rem;
+  }
+}
 .menus {
   display: flex;
   flex-direction: column;
@@ -59,6 +78,7 @@ body {
   align-items: center;
   background-color: #FCDFDB;
   color: #3D1319;
+  margin-bottom: 2rem;
 }
 .menus__list__top .menu1 h2 {
   font-family: "Devonshire", cursive;
@@ -109,6 +129,7 @@ body {
   justify-content: center;
   align-items: center;
   background: #F9F9F9;
+  margin-bottom: 2rem;
 }
 .menus__list__bot .menu3 h2 {
   font-size: 3.3rem;
@@ -160,6 +181,68 @@ body {
   margin-bottom: 15.3rem;
 }
 
+@media screen and (max-width: 1200px) {
+  .menus {
+    min-height: 3750px;
+  }
+  .menus__list {
+    min-height: 3200px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .menus__soon {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #nom_menu1 {
+    font-size: 2rem;
+  }
+  #nom_menu1 + h3 {
+    font-size: 3rem;
+  }
+
+  #nom_menu2 {
+    font-size: 1.5rem;
+  }
+  #nom_menu2 + h3 {
+    font-size: 3rem;
+  }
+
+  #nom_menu3 {
+    font-size: 2rem;
+  }
+  #nom_menu3 + h3 {
+    font-size: 3rem;
+  }
+
+  #nom_menu4 {
+    font-size: 2rem;
+  }
+  #nom_menu4 + h3 {
+    font-size: 3rem;
+  }
+
+  .menus {
+    min-height: 2552px;
+  }
+  .menus__list {
+    min-height: 2139px;
+  }
+  .menus__list__top__menu {
+    height: 500px;
+    min-width: 300px;
+  }
+  .menus__list__bot__menu {
+    height: 500px;
+    min-width: 300px;
+  }
+  .menus__soon {
+    width: 250px;
+    font-size: 2rem;
+    margin-bottom: 200px;
+  }
+}
 .footer {
   width: 100%;
   height: 136px;
@@ -177,6 +260,18 @@ body {
   color: #FDCB46;
   font-size: 3.2rem;
   padding: 0 48px 0 40px;
+}
+
+@media screen and (max-width: 992px) {
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 576px) {
+  .footer__content {
+    font-size: 1.9rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

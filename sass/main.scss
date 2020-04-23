@@ -1,7 +1,7 @@
 @import "./utils/_variables.scss"; 
 @import "./utils/_mixin.scss";
-
+@import "./utils/_keyframes.scss";
 @import "./base/_base.scss";
 @import "./layouts/_header.scss";
-@import "./layouts/_menus.scss";
+@import "./components/_menus.scss";
 @import "./layouts/_footer.scss";
