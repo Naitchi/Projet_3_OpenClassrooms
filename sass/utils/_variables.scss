@@ -19,6 +19,10 @@ $background-color_menu4: #FDFFFD;
 $f-color_menu4:#72BF56;
 // dégrader de : 3E923A à BEFF7F
 
+//animation
+$anim-dur:1000ms;
+$anim-delay: $anim-dur / 3;
+
 //Media quieres 
 $breakpoints : (
     sm:576px,
