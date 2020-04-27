@@ -16,18 +16,23 @@
         color: $secondary-color;
         font-size: 3.2rem;
         padding: 0 48px 0 40px;
+        animation: wiggle both infinite cubic-bezier(.4,.1,.6,.9) 1000ms;
     }
 }
 
 @include screen-lg {
     .footer{
-        flex-direction: column;
-        justify-content: center;
+        p{
+            font-size: 2rem;
+        }
     }
 }
 
 @include screen-sm{
     .footer{
+        flex-direction: column;
+        justify-content: center;
+
         &__content{
             font-size: 1.9rem;
         }
