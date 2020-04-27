@@ -90,7 +90,7 @@ body {
   height: 758px;
   width: 536px;
 }
-.menus__list__top__menu:hover h2, .menus__list__top__menu:hover h3 {
+.menus__list__top__menu:hover h2, .menus__list__top__menu:hover h3, .menus__list__top__menu:hover img {
   animation: zoom both ease-in-out 1000ms;
 }
 .menus__list__top .menu1 {
@@ -292,6 +292,12 @@ body {
   bottom: 0;
   left: 0;
 }
+.footer a {
+  font-weight: none;
+  font-style: none;
+  text-decoration: none;
+  color: none;
+}
 .footer__content {
   color: #FDCB46;
   font-size: 3.2rem;
@@ -301,7 +307,7 @@ body {
 
 @media screen and (max-width: 992px) {
   .footer p {
-    font-size: 2rem;
+    font-size: 2.5rem;
   }
 }
 @media screen and (max-width: 576px) {
@@ -309,7 +315,7 @@ body {
     flex-direction: column;
     justify-content: center;
   }
-  .footer__content {
+  .footer p {
     font-size: 1.9rem;
   }
 }
