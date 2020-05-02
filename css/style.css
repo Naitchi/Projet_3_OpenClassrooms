@@ -279,6 +279,555 @@ body {
     margin-bottom: 200px;
   }
 }
+.menu1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 1634px;
+  min-width: 100%;
+  margin-bottom: 137px;
+  color: #3D1319;
+  background: #FCDFDB;
+}
+.menu1__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 211px;
+  margin-top: 87px;
+}
+.menu1__header__logo {
+  height: 116px;
+  width: 110px;
+}
+.menu1__header__name {
+  font-family: "Devonshire", cursive;
+  font-size: 4.7rem;
+}
+.menu1__starter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 937px;
+  min-height: 332px;
+  margin-top: 41px;
+}
+.menu1__starter__title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 937px;
+}
+.menu1__starter__title__h2 {
+  font-size: 2.4rem;
+  font-family: "Sriracha", cursive;
+}
+.menu1__starter__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 937px;
+  min-height: 243px;
+}
+.menu1__starter__list__element {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-width: 937px;
+}
+.menu1__starter__list__element__name {
+  font-family: "Sriracha", cursive;
+  font-size: 1.72rem;
+}
+.menu1__starter__list__element__price {
+  font-family: "Sriracha", cursive;
+  font-weight: bold;
+  font-size: 1.72rem;
+  letter-spacing: 4px;
+}
+.menu1__main-course {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 937px;
+  min-height: 276px;
+  margin-top: 102px;
+}
+.menu1__main-course__title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 937px;
+}
+.menu1__main-course__title__h2 {
+  font-size: 2.4rem;
+  font-family: "Sriracha", cursive;
+}
+.menu1__main-course__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 937px;
+  min-height: 187px;
+}
+.menu1__main-course__list__element {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 937px;
+}
+.menu1__main-course__list__element__name {
+  font-family: "Sriracha", cursive;
+  font-size: 1.72rem;
+}
+.menu1__main-course__list__element__price {
+  font-family: "Sriracha", cursive;
+  font-weight: bold;
+  font-size: 1.72rem;
+  letter-spacing: 4px;
+}
+.menu1__dessert {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 937px;
+  min-height: 286px;
+  margin-top: 80px;
+}
+.menu1__dessert__title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 937px;
+}
+.menu1__dessert__title__h2 {
+  font-size: 2.4rem;
+  font-family: "Sriracha", cursive;
+}
+.menu1__dessert__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 937px;
+  min-height: 192px;
+}
+.menu1__dessert__list__element {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-width: 937px;
+}
+.menu1__dessert__list__element__name {
+  font-family: "Sriracha", cursive;
+  font-size: 1.72rem;
+}
+.menu1__dessert__list__element__price {
+  font-family: "Sriracha", cursive;
+  font-weight: bold;
+  font-size: 1.72rem;
+  letter-spacing: 4px;
+}
+.menu1__footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 397px;
+  min-height: 237px;
+}
+.menu1__footer__logo {
+  height: 71px;
+  width: 66px;
+}
+.menu1__footer__name {
+  font-family: "Devonshire", cursive;
+  font-size: 3.6rem;
+}
+
+.menu2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 1634px;
+  min-width: 100%;
+  margin-bottom: 137px;
+  color: #3D1319;
+  background: #FCDFDB;
+}
+.menu2__header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 211px;
+  margin-top: 87px;
+}
+.menu2__header__logo {
+  height: 116px;
+  width: 110px;
+}
+.menu2__header__name {
+  font-family: "Devonshire", cursive;
+  font-size: 4.7rem;
+}
+.menu2__starter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 937px;
+  min-height: 332px;
+  margin-top: 41px;
+}
+.menu2__starter__title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 937px;
+}
+.menu2__starter__title__h2 {
+  font-size: 2.4rem;
+  font-family: "Sriracha", cursive;
+}
+.menu2__starter__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 937px;
+  min-height: 243px;
+}
+.menu2__starter__list__element {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-width: 937px;
+}
+.menu2__starter__list__element__name {
+  font-family: "Sriracha", cursive;
+  font-size: 1.72rem;
+}
+.menu2__starter__list__element__price {
+  font-family: "Sriracha", cursive;
+  font-weight: bold;
+  font-size: 1.72rem;
+  letter-spacing: 4px;
+}
+.menu2__main-course {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 937px;
+  min-height: 276px;
+  margin-top: 102px;
+}
+.menu2__main-course__title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 937px;
+}
+.menu2__main-course__title__h2 {
+  font-size: 2.4rem;
+  font-family: "Sriracha", cursive;
+}
+.menu2__main-course__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 937px;
+  min-height: 187px;
+}
+.menu2__main-course__list__element {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 937px;
+}
+.menu2__main-course__list__element__name {
+  font-family: "Sriracha", cursive;
+  font-size: 1.72rem;
+}
+.menu2__main-course__list__element__price {
+  font-family: "Sriracha", cursive;
+  font-weight: bold;
+  font-size: 1.72rem;
+  letter-spacing: 4px;
+}
+.menu2__dessert {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 937px;
+  min-height: 286px;
+  margin-top: 80px;
+}
+.menu2__dessert__title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 937px;
+}
+.menu2__dessert__title__h2 {
+  font-size: 2.4rem;
+  font-family: "Sriracha", cursive;
+}
+.menu2__dessert__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 937px;
+  min-height: 192px;
+}
+.menu2__dessert__list__element {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-width: 937px;
+}
+.menu2__dessert__list__element__name {
+  font-family: "Sriracha", cursive;
+  font-size: 1.72rem;
+}
+.menu2__dessert__list__element__price {
+  font-family: "Sriracha", cursive;
+  font-weight: bold;
+  font-size: 1.72rem;
+  letter-spacing: 4px;
+}
+.menu2__footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 397px;
+  min-height: 237px;
+}
+.menu2__footer__logo {
+  height: 71px;
+  width: 66px;
+}
+.menu2__footer__name {
+  font-family: "Devonshire", cursive;
+  font-size: 3.6rem;
+}
+
+.menu3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 137px;
+}
+.menu3__starter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu3__starter__title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu3__starter__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu3__starter__list__element {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.menu3__main-course {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu3__main-course__title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu3__main-course__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu3__main-course__list__element {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.menu3__dessert {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu3__dessert__title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu3__dessert__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu3__dessert__list__element {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.menu4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 137px;
+}
+.menu4__starter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu4__starter__title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /*&__line{
+
+  }
+
+  &__h2{
+
+  }*/
+}
+.menu4__starter__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu4__starter__list__element {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /*&__name{
+
+  }
+
+  &__price{
+
+  }*/
+}
+.menu4__main-course {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu4__main-course__title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /*&__line{
+
+  }
+
+  &__h2{
+
+  }*/
+}
+.menu4__main-course__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu4__main-course__list__element {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /*&__name{
+
+  }
+
+  &__price{
+
+  }*/
+}
+.menu4__dessert {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu4__dessert__title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  /*&__line{
+
+  }
+
+  &__h2{
+
+  }*/
+}
+.menu4__dessert__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu4__dessert__list__element {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /*&__name{
+
+  }
+
+  &__price{
+
+  }*/
+}
+
 .footer {
   width: 100%;
   height: 136px;

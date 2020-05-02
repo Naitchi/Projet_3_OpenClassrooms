@@ -1,0 +1,137 @@
+.menu4{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 137px;
+
+
+    &__starter{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        &__title{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            /*&__line{
+
+            }
+
+            &__h2{
+
+            }*/
+        }
+
+        &__list{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+
+            &__element{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+
+                /*&__name{
+
+                }
+
+                &__price{
+
+                }*/
+            }
+        }
+    }
+
+    &__main-course{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        &__title{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            /*&__line{
+
+            }
+
+            &__h2{
+
+            }*/
+        }
+
+        &__list{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+
+            &__element{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+
+                /*&__name{
+
+                }
+
+                &__price{
+
+                }*/
+            }
+        }
+    }
+
+    &__dessert{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
+        &__title{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            /*&__line{
+
+            }
+
+            &__h2{
+
+            }*/
+        }
+
+        &__list{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+
+            &__element{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+
+                /*&__name{
+
+                }
+
+                &__price{
+
+                }*/
+            }
+        }
+    }
+}
