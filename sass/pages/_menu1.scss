@@ -27,6 +27,7 @@
         &__name{
             font-family: 'Devonshire', cursive;
             font-size: 4.7rem;
+            text-align: center;
         }
     }
 
@@ -51,6 +52,7 @@
             &__h2{
                 font-size: 2.4rem;
                 font-family: 'Sriracha', cursive;
+                text-align: center;
             }
         }
 
@@ -108,6 +110,7 @@
             &__h2{
                 font-size: 2.4rem;
                 font-family: 'Sriracha', cursive;
+                text-align: center;
             }
         }
 
@@ -153,8 +156,6 @@
         min-height: 286px;
         margin-top: 80px;
 
-
-
         &__title{
             display: flex;
             flex-direction: row;
@@ -165,6 +166,7 @@
             &__h2{
                 font-size: 2.4rem;
                 font-family: 'Sriracha', cursive;
+                text-align: center;
             }
         }
 
@@ -217,6 +219,193 @@
         &__name{
             font-family: 'Devonshire', cursive;
             font-size: 3.6rem;
+        }
+    }
+}
+
+@include screen-xl {
+    .menu1__body__starter__title, .menu1__body__main-course__title, .menu1__body__dessert__title{
+            min-width: 1000px;
+    }
+}
+
+@include screen-lg {
+    .menu1{
+        min-width: 100%;
+        &__header{
+            &__name{
+                min-width: 462px;
+                font-size: 4rem;
+            }
+        }
+        
+        &__starter{
+            min-width: 750px;
+            &__title{
+                min-width: 750px;
+                &__line{
+                    width: 222px;
+                }
+            }
+            &__list{
+                min-width: 750px;
+                &__element{
+                    min-width: 750px;
+                    &__name{
+                        font-size: 1.2rem;
+                    }
+                    &__price{
+                        font-size:1.5rem;
+                    }
+                }
+            }
+        }
+        
+        &__main-course{
+            min-width: 750px;
+            &__title{
+                min-width: 750px;
+                &__line{
+                    width: 222px;
+                }
+            }
+            &__list{
+                min-width: 750px;
+                &__element{
+                    min-width: 750px;
+                    &__name{
+                        font-size: 1.2rem;
+                    }
+                    &__price{
+                        font-size:1.5rem;
+                    }
+                }
+            }
+        }
+        
+        &__dessert{
+            min-width: 750px;
+            &__title{
+                min-width: 750px;
+                &__line{
+                    width: 222px;
+                }
+            }
+            &__list{
+                min-width: 750px;
+                &__element{
+                    min-width: 750px;
+                    &__name{
+                        font-size: 1.2rem;
+                    }
+                    &__price{
+                        font-size:1.5rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@include screen-sm{
+    .menu1{
+        padding-bottom: 100px;
+        min-width: 100%;
+        &__header{
+            margin-top: 100px;
+            &__name{
+                min-width: 222px;
+                font-size: 2.5rem;
+            }
+        }
+        
+        &__starter{
+            min-width: 320px;
+            &__title{
+                min-width: 320px;
+                &__h2{
+                    font-size: 1.5rem;
+                }
+                &__line{
+                    width: 100px;
+                }
+            }
+            &__list{
+                min-width: 320px;
+                max-width: 320px;
+                &__element{
+                    min-width: 320px;
+                    max-width: 320px;
+                    &__name{
+                        font-size: 1rem;
+                    }
+                    &__price{
+                        font-size:1.2rem;
+                    }
+                }
+            }
+        }
+        
+        &__main-course{
+            min-width: 320px;
+            &__title{
+                min-width: 320px;
+                &__h2{
+                    font-size: 1.5rem;
+                }
+                &__line{
+                    width: 100px;
+                }
+            }
+            &__list{
+                min-width: 320px;
+                max-width: 320px;
+                &__element{
+                    min-width: 320px;
+                    max-width: 320px;
+                    &__name{
+                        font-size: 1rem;
+                    }
+                    &__price{
+                        font-size:1.2rem;
+                    }
+                }
+            }
+        }
+        
+        &__dessert{
+            min-width: 320px;
+            &__title{
+                min-width: 320px;
+                &__h2{
+                    font-size:1.2rem;
+                }
+                &__line{
+                    width: 100px;
+                }
+            }
+            &__list{
+                min-width: 320px;
+                max-width: 320px;
+                &__element{
+                    min-width: 320px;
+                    max-width: 320px;
+                    &__name{
+                        font-size: 1rem;
+                    }
+                    &__price{
+                        font-size:1.2rem;
+                    }
+                }
+            }
+        }
+
+        &__footer{
+            min-width: 314px;
+            &__name{
+                font-size: 2.6rem;
+            }
         }
     }
 }

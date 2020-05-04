@@ -93,7 +93,7 @@ body {
 .menus__list__top__menu:hover h2, .menus__list__top__menu:hover h3, .menus__list__top__menu:hover img {
   animation: zoom both ease-in-out 1000ms;
 }
-.menus__list__top .menu1 {
+.menus__list__top .menu-1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -102,24 +102,24 @@ body {
   color: #3D1319;
   margin-bottom: 2rem;
 }
-.menus__list__top .menu1 h2 {
+.menus__list__top .menu-1 h2 {
   font-family: "Devonshire", cursive;
   font-size: 3rem;
   height: 83px;
 }
-.menus__list__top .menu1 h3 {
+.menus__list__top .menu-1 h3 {
   font-family: "Sriracha", cursive;
   font-size: 4rem;
   height: 45px;
 }
-.menus__list__top .menu2 {
+.menus__list__top .menu-2 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background-color: #FFF5FE;
 }
-.menus__list__top .menu2 h2 {
+.menus__list__top .menu-2 h2 {
   font-family: "Croissant One", cursive;
   font-size: 2.2rem;
   height: 76px;
@@ -128,7 +128,7 @@ body {
   background-clip: text;
   -webkit-background-clip: text;
 }
-.menus__list__top .menu2 h3 {
+.menus__list__top .menu-2 h3 {
   font-family: "Noto Serif", serif;
   font-size: 4rem;
   height: 43px;
@@ -148,7 +148,7 @@ body {
 .menus__list__bot__menu:hover h2, .menus__list__bot__menu:hover h3 {
   animation: zoom both ease-in-out 1000ms;
 }
-.menus__list__bot .menu3 {
+.menus__list__bot .menu-3 {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -156,7 +156,7 @@ body {
   background: #F9F9F9;
   margin-bottom: 2rem;
 }
-.menus__list__bot .menu3 h2 {
+.menus__list__bot .menu-3 h2 {
   font-size: 3.3rem;
   font-family: "Parisienne", cursive;
   height: 93px;
@@ -165,20 +165,20 @@ body {
   background-clip: text;
   -webkit-background-clip: text;
 }
-.menus__list__bot .menu3 h3 {
+.menus__list__bot .menu-3 h3 {
   font-size: 3.9rem;
   font-family: "Sriracha", cursive;
   color: #0887FB;
   height: 65px;
 }
-.menus__list__bot .menu4 {
+.menus__list__bot .menu-4 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   background: #FDFFFD;
 }
-.menus__list__bot .menu4 h2 {
+.menus__list__bot .menu-4 h2 {
   font-size: 3.2rem;
   font-family: "Kaushan Script", cursive;
   height: 93px;
@@ -187,7 +187,7 @@ body {
   background-clip: text;
   -webkit-background-clip: text;
 }
-.menus__list__bot .menu4 h3 {
+.menus__list__bot .menu-4 h3 {
   color: #72BF56;
   font-size: 3.9rem;
   font-family: "Sriracha", cursive;
@@ -305,6 +305,7 @@ body {
 .menu1__header__name {
   font-family: "Devonshire", cursive;
   font-size: 4.7rem;
+  text-align: center;
 }
 .menu1__starter {
   display: flex;
@@ -325,6 +326,7 @@ body {
 .menu1__starter__title__h2 {
   font-size: 2.4rem;
   font-family: "Sriracha", cursive;
+  text-align: center;
 }
 .menu1__starter__list {
   display: flex;
@@ -369,6 +371,7 @@ body {
 .menu1__main-course__title__h2 {
   font-size: 2.4rem;
   font-family: "Sriracha", cursive;
+  text-align: center;
 }
 .menu1__main-course__list {
   display: flex;
@@ -414,6 +417,7 @@ body {
 .menu1__dessert__title__h2 {
   font-size: 2.4rem;
   font-family: "Sriracha", cursive;
+  text-align: center;
 }
 .menu1__dessert__list {
   display: flex;
@@ -456,378 +460,1239 @@ body {
   font-size: 3.6rem;
 }
 
+@media screen and (max-width: 1200px) {
+  .menu1__body__starter__title, .menu1__body__main-course__title, .menu1__body__dessert__title {
+    min-width: 1000px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .menu1 {
+    min-width: 100%;
+  }
+  .menu1__header__name {
+    min-width: 462px;
+    font-size: 4rem;
+  }
+  .menu1__starter {
+    min-width: 750px;
+  }
+  .menu1__starter__title {
+    min-width: 750px;
+  }
+  .menu1__starter__title__line {
+    width: 222px;
+  }
+  .menu1__starter__list {
+    min-width: 750px;
+  }
+  .menu1__starter__list__element {
+    min-width: 750px;
+  }
+  .menu1__starter__list__element__name {
+    font-size: 1.2rem;
+  }
+  .menu1__starter__list__element__price {
+    font-size: 1.5rem;
+  }
+  .menu1__main-course {
+    min-width: 750px;
+  }
+  .menu1__main-course__title {
+    min-width: 750px;
+  }
+  .menu1__main-course__title__line {
+    width: 222px;
+  }
+  .menu1__main-course__list {
+    min-width: 750px;
+  }
+  .menu1__main-course__list__element {
+    min-width: 750px;
+  }
+  .menu1__main-course__list__element__name {
+    font-size: 1.2rem;
+  }
+  .menu1__main-course__list__element__price {
+    font-size: 1.5rem;
+  }
+  .menu1__dessert {
+    min-width: 750px;
+  }
+  .menu1__dessert__title {
+    min-width: 750px;
+  }
+  .menu1__dessert__title__line {
+    width: 222px;
+  }
+  .menu1__dessert__list {
+    min-width: 750px;
+  }
+  .menu1__dessert__list__element {
+    min-width: 750px;
+  }
+  .menu1__dessert__list__element__name {
+    font-size: 1.2rem;
+  }
+  .menu1__dessert__list__element__price {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .menu1 {
+    padding-bottom: 100px;
+    min-width: 100%;
+  }
+  .menu1__header {
+    margin-top: 100px;
+  }
+  .menu1__header__name {
+    min-width: 222px;
+    font-size: 2.5rem;
+  }
+  .menu1__starter {
+    min-width: 320px;
+  }
+  .menu1__starter__title {
+    min-width: 320px;
+  }
+  .menu1__starter__title__h2 {
+    font-size: 1.5rem;
+  }
+  .menu1__starter__title__line {
+    width: 100px;
+  }
+  .menu1__starter__list {
+    min-width: 320px;
+    max-width: 320px;
+  }
+  .menu1__starter__list__element {
+    min-width: 320px;
+    max-width: 320px;
+  }
+  .menu1__starter__list__element__name {
+    font-size: 1rem;
+  }
+  .menu1__starter__list__element__price {
+    font-size: 1.2rem;
+  }
+  .menu1__main-course {
+    min-width: 320px;
+  }
+  .menu1__main-course__title {
+    min-width: 320px;
+  }
+  .menu1__main-course__title__h2 {
+    font-size: 1.5rem;
+  }
+  .menu1__main-course__title__line {
+    width: 100px;
+  }
+  .menu1__main-course__list {
+    min-width: 320px;
+    max-width: 320px;
+  }
+  .menu1__main-course__list__element {
+    min-width: 320px;
+    max-width: 320px;
+  }
+  .menu1__main-course__list__element__name {
+    font-size: 1rem;
+  }
+  .menu1__main-course__list__element__price {
+    font-size: 1.2rem;
+  }
+  .menu1__dessert {
+    min-width: 320px;
+  }
+  .menu1__dessert__title {
+    min-width: 320px;
+  }
+  .menu1__dessert__title__h2 {
+    font-size: 1.2rem;
+  }
+  .menu1__dessert__title__line {
+    width: 100px;
+  }
+  .menu1__dessert__list {
+    min-width: 320px;
+    max-width: 320px;
+  }
+  .menu1__dessert__list__element {
+    min-width: 320px;
+    max-width: 320px;
+  }
+  .menu1__dessert__list__element__name {
+    font-size: 1rem;
+  }
+  .menu1__dessert__list__element__price {
+    font-size: 1.2rem;
+  }
+  .menu1__footer {
+    min-width: 314px;
+  }
+  .menu1__footer__name {
+    font-size: 2.6rem;
+  }
+}
 .menu2 {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  min-height: 1634px;
+  min-height: 1434px;
   min-width: 100%;
+  padding-bottom: 150px;
   margin-bottom: 137px;
-  color: #3D1319;
-  background: #FCDFDB;
+  background: #FFF5FE;
 }
 .menu2__header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  min-height: 211px;
-  margin-top: 87px;
-}
-.menu2__header__logo {
-  height: 116px;
-  width: 110px;
+  margin-top: 179px;
 }
 .menu2__header__name {
-  font-family: "Devonshire", cursive;
-  font-size: 4.7rem;
+  font-family: "Croissant One", cursive;
+  font-size: 3.55rem;
+  height: 76px;
+  text-align: center;
+  background: linear-gradient(to bottom right, #EAA144, #8F5AFF);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
 }
-.menu2__starter {
+.menu2__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 1071px;
+}
+.menu2__body__starter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 1099px;
+  min-height: 260px;
+  margin-top: 53px;
+  color: #C77412;
+}
+.menu2__body__starter__title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 1099px;
+}
+.menu2__body__starter__title__h2 {
+  font-size: 2rem;
+  font-family: "Noto Serif", serif;
+  text-align: center;
+}
+.menu2__body__starter__list {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   min-width: 937px;
-  min-height: 332px;
-  margin-top: 41px;
+  min-height: 168px;
 }
-.menu2__starter__title {
+.menu2__body__starter__list__element {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
-  min-width: 937px;
+  min-width: 844px;
 }
-.menu2__starter__title__h2 {
-  font-size: 2.4rem;
-  font-family: "Sriracha", cursive;
+.menu2__body__starter__list__element__name {
+  font-family: "Noto Serif", serif;
+  font-size: 1.47rem;
 }
-.menu2__starter__list {
+.menu2__body__starter__list__element__price {
+  font-family: "Noto Serif", serif;
+  font-size: 1.7rem;
+  letter-spacing: 3px;
+}
+.menu2__body__main-course {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  min-width: 937px;
-  min-height: 243px;
+  min-width: 1099px;
+  min-height: 273px;
+  margin-top: 94px;
+  color: #A56799;
 }
-.menu2__starter__list__element {
+.menu2__body__main-course__title {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  min-width: 937px;
+  align-items: center;
+  min-width: 1099px;
 }
-.menu2__starter__list__element__name {
-  font-family: "Sriracha", cursive;
-  font-size: 1.72rem;
+.menu2__body__main-course__title__h2 {
+  font-size: 2rem;
+  font-family: "Noto Serif", serif;
+  text-align: center;
 }
-.menu2__starter__list__element__price {
-  font-family: "Sriracha", cursive;
-  font-weight: bold;
-  font-size: 1.72rem;
-  letter-spacing: 4px;
-}
-.menu2__main-course {
+.menu2__body__main-course__list {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   min-width: 937px;
+  min-height: 193px;
+}
+.menu2__body__main-course__list__element {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 844px;
+}
+.menu2__body__main-course__list__element__name {
+  font-family: "Noto Serif", serif;
+  font-size: 1.47rem;
+}
+.menu2__body__main-course__list__element__price {
+  font-family: "Noto Serif", serif;
+  font-size: 1.7rem;
+  letter-spacing: 3px;
+}
+.menu2__body__dessert {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 1099px;
   min-height: 276px;
-  margin-top: 102px;
-}
-.menu2__main-course__title {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  min-width: 937px;
-}
-.menu2__main-course__title__h2 {
-  font-size: 2.4rem;
-  font-family: "Sriracha", cursive;
-}
-.menu2__main-course__list {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  min-width: 937px;
-  min-height: 187px;
-}
-.menu2__main-course__list__element {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  min-width: 937px;
-}
-.menu2__main-course__list__element__name {
-  font-family: "Sriracha", cursive;
-  font-size: 1.72rem;
-}
-.menu2__main-course__list__element__price {
-  font-family: "Sriracha", cursive;
-  font-weight: bold;
-  font-size: 1.72rem;
-  letter-spacing: 4px;
-}
-.menu2__dessert {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  min-width: 937px;
-  min-height: 286px;
   margin-top: 80px;
+  color: #6E4CCC;
 }
-.menu2__dessert__title {
+.menu2__body__dessert__title {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  min-width: 937px;
+  min-width: 1099px;
 }
-.menu2__dessert__title__h2 {
-  font-size: 2.4rem;
-  font-family: "Sriracha", cursive;
+.menu2__body__dessert__title__h2 {
+  font-size: 2rem;
+  font-family: "Noto Serif", serif;
+  text-align: center;
 }
-.menu2__dessert__list {
+.menu2__body__dessert__list {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   min-width: 937px;
-  min-height: 192px;
+  min-height: 199px;
 }
-.menu2__dessert__list__element {
+.menu2__body__dessert__list__element {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  min-width: 937px;
+  min-width: 844px;
 }
-.menu2__dessert__list__element__name {
-  font-family: "Sriracha", cursive;
-  font-size: 1.72rem;
+.menu2__body__dessert__list__element__name {
+  font-family: "Noto Serif", serif;
+  font-size: 1.47rem;
 }
-.menu2__dessert__list__element__price {
-  font-family: "Sriracha", cursive;
-  font-weight: bold;
-  font-size: 1.72rem;
-  letter-spacing: 4px;
-}
-.menu2__footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  min-width: 397px;
-  min-height: 237px;
-}
-.menu2__footer__logo {
-  height: 71px;
-  width: 66px;
-}
-.menu2__footer__name {
-  font-family: "Devonshire", cursive;
-  font-size: 3.6rem;
+.menu2__body__dessert__list__element__price {
+  font-family: "Noto Serif", serif;
+  font-size: 1.7rem;
+  letter-spacing: 3px;
 }
 
+@media screen and (max-width: 1200px) {
+  .menu2__body__starter__title, .menu2__body__main-course__title, .menu2__body__dessert__title {
+    min-width: 1000px;
+  }
+
+  .menu2__body__starter, .menu2__body__main-course, .menu2__body__dessert {
+    min-width: 1000px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .menu2__header__name {
+    min-width: 462px;
+    font-size: 4rem;
+  }
+  .menu2__body {
+    min-width: 750px;
+  }
+  .menu2__body__starter {
+    min-width: 750px;
+  }
+  .menu2__body__starter__title {
+    min-width: 750px;
+  }
+  .menu2__body__starter__title__line {
+    width: 222px;
+  }
+  .menu2__body__starter__list {
+    min-width: 750px;
+  }
+  .menu2__body__starter__list__element {
+    min-width: 750px;
+  }
+  .menu2__body__starter__list__element__name {
+    font-size: 1.2rem;
+  }
+  .menu2__body__starter__list__element__price {
+    font-size: 1.5rem;
+  }
+  .menu2__body__main-course {
+    min-width: 750px;
+  }
+  .menu2__body__main-course__title {
+    min-width: 750px;
+  }
+  .menu2__body__main-course__title__line {
+    width: 222px;
+  }
+  .menu2__body__main-course__list {
+    min-width: 750px;
+  }
+  .menu2__body__main-course__list__element {
+    min-width: 750px;
+  }
+  .menu2__body__main-course__list__element__name {
+    font-size: 1.2rem;
+  }
+  .menu2__body__main-course__list__element__price {
+    font-size: 1.5rem;
+  }
+  .menu2__body__dessert {
+    min-width: 750px;
+  }
+  .menu2__body__dessert__title {
+    min-width: 750px;
+  }
+  .menu2__body__dessert__title__line {
+    width: 222px;
+  }
+  .menu2__body__dessert__list {
+    min-width: 750px;
+  }
+  .menu2__body__dessert__list__element {
+    min-width: 750px;
+  }
+  .menu2__body__dessert__list__element__name {
+    font-size: 1.2rem;
+  }
+  .menu2__body__dessert__list__element__price {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .menu2 {
+    padding-bottom: 100px;
+    min-height: 1343px;
+  }
+  .menu2__header {
+    margin-top: 100px;
+  }
+  .menu2__header__name {
+    min-width: 295px;
+    font-size: 2.5rem;
+    min-height: 150px;
+  }
+  .menu2__body {
+    min-width: 320px;
+  }
+  .menu2__body__starter {
+    min-width: 320px;
+  }
+  .menu2__body__starter__title {
+    min-width: 320px;
+  }
+  .menu2__body__starter__title__h2 {
+    font-size: 1.5rem;
+  }
+  .menu2__body__starter__title__line {
+    width: 100px;
+  }
+  .menu2__body__starter__list {
+    min-width: 320px;
+    max-width: 320px;
+  }
+  .menu2__body__starter__list__element {
+    min-width: 320px;
+    max-width: 320px;
+  }
+  .menu2__body__starter__list__element__name {
+    font-size: 1rem;
+  }
+  .menu2__body__starter__list__element__price {
+    font-size: 1.2rem;
+  }
+  .menu2__body__main-course {
+    min-width: 320px;
+  }
+  .menu2__body__main-course__title {
+    min-width: 320px;
+  }
+  .menu2__body__main-course__title__h2 {
+    font-size: 1.5rem;
+  }
+  .menu2__body__main-course__title__line {
+    width: 100px;
+  }
+  .menu2__body__main-course__list {
+    min-width: 320px;
+    max-width: 320px;
+  }
+  .menu2__body__main-course__list__element {
+    min-width: 320px;
+    max-width: 320px;
+  }
+  .menu2__body__main-course__list__element__name {
+    font-size: 1rem;
+  }
+  .menu2__body__main-course__list__element__price {
+    font-size: 1.2rem;
+  }
+  .menu2__body__dessert {
+    min-width: 320px;
+  }
+  .menu2__body__dessert__title {
+    min-width: 320px;
+  }
+  .menu2__body__dessert__title__h2 {
+    font-size: 1rem;
+  }
+  .menu2__body__dessert__title__line {
+    width: 100px;
+  }
+  .menu2__body__dessert__list {
+    min-width: 320px;
+    max-width: 320px;
+  }
+  .menu2__body__dessert__list__element {
+    min-width: 320px;
+    max-width: 320px;
+  }
+  .menu2__body__dessert__list__element__name {
+    font-size: 1rem;
+  }
+  .menu2__body__dessert__list__element__price {
+    font-size: 1.2rem;
+  }
+}
 .menu3 {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  min-height: 1381px;
+  min-width: 100%;
   margin-bottom: 137px;
+  padding-bottom: 150px;
+  background: #F9F9F9;
+  color: black;
 }
-.menu3__starter {
+.menu3__header {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  margin-top: 166px;
 }
-.menu3__starter__title {
+.menu3__header__name {
+  font-size: 6.5rem;
+  font-family: "Parisienne", cursive;
+  text-align: center;
+  background: linear-gradient(to bottom right, #0526DB, #5BAEFB);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.menu3__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 967px;
+}
+.menu3__body__starter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 1074px;
+  min-height: 281px;
+}
+.menu3__body__starter__title {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  min-width: 1074px;
 }
-.menu3__starter__list {
+.menu3__body__starter__title__h2 {
+  font-size: 2rem;
+  font-family: "Sriracha", cursive;
+  font-weight: normal;
+  text-align: center;
+}
+.menu3__body__starter__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 937px;
+  min-height: 185px;
+}
+.menu3__body__starter__list__element {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-width: 844px;
+}
+.menu3__body__starter__list__element__name {
+  font-family: "Sriracha", cursive;
+  font-size: 1.66rem;
+  font-weight: normal;
+}
+.menu3__body__starter__list__element__price {
+  font-family: "Sriracha", cursive;
+  font-size: 2.1rem;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+.menu3__body__main-course {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 1074px;
+  min-height: 278px;
+  margin-top: 10px;
+}
+.menu3__body__main-course__title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 1074px;
+}
+.menu3__body__main-course__title__h2 {
+  font-size: 2rem;
+  font-family: "Sriracha", cursive;
+  font-weight: normal;
+  text-align: center;
+}
+.menu3__body__main-course__list {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  min-width: 937px;
+  min-height: 193px;
 }
-.menu3__starter__list__element {
+.menu3__body__main-course__list__element {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
+  min-width: 844px;
 }
-.menu3__main-course {
+.menu3__body__main-course__list__element__name {
+  font-family: "Sriracha", cursive;
+  font-size: 1.66rem;
+  font-weight: normal;
+}
+.menu3__body__main-course__list__element__price {
+  font-family: "Sriracha", cursive;
+  font-size: 2.1rem;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+.menu3__body__dessert {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 1074px;
+  min-height: 288px;
+}
+.menu3__body__dessert__title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 1074px;
+}
+.menu3__body__dessert__title__h2 {
+  font-size: 2rem;
+  font-family: "Sriracha", cursive;
+  font-weight: normal;
+  text-align: center;
+}
+.menu3__body__dessert__list {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  min-width: 937px;
+  min-height: 199px;
 }
-.menu3__main-course__title {
+.menu3__body__dessert__list__element {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  min-width: 844px;
 }
-.menu3__main-course__list {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+.menu3__body__dessert__list__element__name {
+  font-family: "Sriracha", cursive;
+  font-size: 1.66rem;
+  font-weight: normal;
 }
-.menu3__main-course__list__element {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+.menu3__body__dessert__list__element__price {
+  font-family: "Sriracha", cursive;
+  font-size: 2.1rem;
+  letter-spacing: 2px;
+  font-weight: normal;
 }
-.menu3__dessert {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
+
+@media screen and (max-width: 1200px) {
+  .menu3__body__starter__title, .menu3__body__main-course__title, .menu3__body__dessert__title {
+    min-width: 1000px;
+  }
 }
-.menu3__dessert__title {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
+@media screen and (max-width: 992px) {
+  .menu3__header__name {
+    min-width: 462px;
+    font-size: 4rem;
+  }
+  .menu3__body {
+    min-width: 750px;
+  }
+  .menu3__body__starter {
+    min-width: 750px;
+  }
+  .menu3__body__starter__title {
+    min-width: 750px;
+  }
+  .menu3__body__starter__title__line {
+    width: 222px;
+  }
+  .menu3__body__starter__list {
+    min-width: 750px;
+  }
+  .menu3__body__starter__list__element {
+    min-width: 750px;
+  }
+  .menu3__body__starter__list__element__name {
+    font-size: 1.2rem;
+  }
+  .menu3__body__starter__list__element__price {
+    font-size: 1.5rem;
+  }
+  .menu3__body__main-course {
+    min-width: 750px;
+  }
+  .menu3__body__main-course__title {
+    min-width: 750px;
+  }
+  .menu3__body__main-course__title__line {
+    width: 222px;
+  }
+  .menu3__body__main-course__list {
+    min-width: 750px;
+  }
+  .menu3__body__main-course__list__element {
+    min-width: 750px;
+  }
+  .menu3__body__main-course__list__element__name {
+    font-size: 1.2rem;
+  }
+  .menu3__body__main-course__list__element__price {
+    font-size: 1.5rem;
+  }
+  .menu3__body__dessert {
+    min-width: 750px;
+  }
+  .menu3__body__dessert__title {
+    min-width: 750px;
+  }
+  .menu3__body__dessert__title__line {
+    width: 222px;
+  }
+  .menu3__body__dessert__list {
+    min-width: 750px;
+  }
+  .menu3__body__dessert__list__element {
+    min-width: 750px;
+  }
+  .menu3__body__dessert__list__element__name {
+    font-size: 1.2rem;
+  }
+  .menu3__body__dessert__list__element__price {
+    font-size: 1.5rem;
+  }
 }
-.menu3__dessert__list {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-.menu3__dessert__list__element {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+@media screen and (max-width: 576px) {
+  .menu3 {
+    min-height: 1192px;
+    padding-bottom: 100px;
+  }
+  .menu3__header {
+    margin-top: 100px;
+  }
+  .menu3__header__name {
+    min-width: 295px;
+    font-size: 2.5rem;
+  }
+  .menu3__body {
+    min-width: 320px;
+  }
+  .menu3__body__starter {
+    min-width: 320px;
+  }
+  .menu3__body__starter__title {
+    min-width: 320px;
+  }
+  .menu3__body__starter__title__h2 {
+    font-size: 1.5rem;
+  }
+  .menu3__body__starter__title__line {
+    width: 100px;
+  }
+  .menu3__body__starter__list {
+    min-width: 320px;
+    max-width: 320px;
+  }
+  .menu3__body__starter__list__element {
+    min-width: 320px;
+    max-width: 320px;
+  }
+  .menu3__body__starter__list__element__name {
+    font-size: 1rem;
+  }
+  .menu3__body__starter__list__element__price {
+    font-size: 1.2rem;
+  }
+  .menu3__body__main-course {
+    min-width: 320px;
+  }
+  .menu3__body__main-course__title {
+    min-width: 320px;
+  }
+  .menu3__body__main-course__title__h2 {
+    font-size: 1.5rem;
+  }
+  .menu3__body__main-course__title__line {
+    width: 100px;
+  }
+  .menu3__body__main-course__list {
+    min-width: 320px;
+    max-width: 320px;
+  }
+  .menu3__body__main-course__list__element {
+    min-width: 320px;
+    max-width: 320px;
+  }
+  .menu3__body__main-course__list__element__name {
+    font-size: 1rem;
+  }
+  .menu3__body__main-course__list__element__price {
+    font-size: 1.2rem;
+  }
+  .menu3__body__dessert {
+    min-width: 320px;
+  }
+  .menu3__body__dessert__title {
+    min-width: 320px;
+  }
+  .menu3__body__dessert__title__h2 {
+    font-size: 1.5rem;
+  }
+  .menu3__body__dessert__title__line {
+    width: 100px;
+  }
+  .menu3__body__dessert__list {
+    min-width: 320px;
+    max-width: 320px;
+  }
+  .menu3__body__dessert__list__element {
+    min-width: 320px;
+    max-width: 320px;
+  }
+  .menu3__body__dessert__list__element__name {
+    font-size: 1rem;
+  }
+  .menu3__body__dessert__list__element__price {
+    font-size: 1.2rem;
+  }
 }
 .menu4 {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  min-height: 1381px;
+  min-width: 100%;
   margin-bottom: 137px;
+  padding-bottom: 150px;
+  background: #F9F9F9;
+  color: black;
 }
-.menu4__starter {
+.menu4__header {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  margin-top: 140px;
 }
-.menu4__starter__title {
+.menu4__header__name {
+  font-size: 6.9rem;
+  font-family: "Kaushan Script", cursive;
+  min-width: 788px;
+  text-align: center;
+  background: linear-gradient(to bottom right, #3E923A, #BEFF7F);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+.menu4__body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 967px;
+}
+.menu4__body__starter {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 1074px;
+  min-height: 281px;
+}
+.menu4__body__starter__title {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  /*&__line{
-
-  }
-
-  &__h2{
-
-  }*/
+  min-width: 1076px;
 }
-.menu4__starter__list {
+.menu4__body__starter__title__h2 {
+  font-size: 1.7rem;
+  font-family: "Sriracha", cursive;
+  font-weight: normal;
+  text-align: center;
+}
+.menu4__body__starter__list {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
+  min-width: 937px;
+  min-height: 185px;
 }
-.menu4__starter__list__element {
+.menu4__body__starter__list__element {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /*&__name{
-
-  }
-
-  &__price{
-
-  }*/
+  min-width: 874px;
 }
-.menu4__main-course {
+.menu4__body__starter__list__element__name {
+  font-family: "Sriracha", cursive;
+  font-size: 1.55rem;
+  font-weight: normal;
+}
+.menu4__body__starter__list__element__price {
+  font-family: "Sriracha", cursive;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+.menu4__body__main-course {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-.menu4__main-course__title {
-  display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  /*&__line{
-
-  }
-
-  &__h2{
-
-  }*/
+  min-width: 1074px;
+  min-height: 278px;
+  margin-top: 10px;
 }
-.menu4__main-course__list {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-.menu4__main-course__list__element {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  /*&__name{
-
-  }
-
-  &__price{
-
-  }*/
-}
-.menu4__dessert {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
-.menu4__dessert__title {
+.menu4__body__main-course__title {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  /*&__line{
-
-  }
-
-  &__h2{
-
-  }*/
+  min-width: 1076px;
 }
-.menu4__dessert__list {
+.menu4__body__main-course__title__h2 {
+  font-size: 1.7rem;
+  font-family: "Sriracha", cursive;
+  font-weight: normal;
+  text-align: center;
+}
+.menu4__body__main-course__list {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  min-width: 937px;
+  min-height: 193px;
 }
-.menu4__dessert__list__element {
+.menu4__body__main-course__list__element {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  /*&__name{
-
-  }
-
-  &__price{
-
-  }*/
+  align-items: center;
+  min-width: 874px;
+}
+.menu4__body__main-course__list__element__name {
+  font-family: "Sriracha", cursive;
+  font-size: 1.55rem;
+  font-weight: normal;
+}
+.menu4__body__main-course__list__element__price {
+  font-family: "Sriracha", cursive;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  font-weight: normal;
+}
+.menu4__body__dessert {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 1074px;
+  min-height: 288px;
+}
+.menu4__body__dessert__title {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 1076px;
+}
+.menu4__body__dessert__title__h2 {
+  font-size: 1.7rem;
+  font-family: "Sriracha", cursive;
+  font-weight: normal;
+  text-align: center;
+}
+.menu4__body__dessert__list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  min-width: 937px;
+  min-height: 199px;
+}
+.menu4__body__dessert__list__element {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  min-width: 874px;
+}
+.menu4__body__dessert__list__element__name {
+  font-family: "Sriracha", cursive;
+  font-size: 1.55rem;
+  font-weight: normal;
+}
+.menu4__body__dessert__list__element__price {
+  font-family: "Sriracha", cursive;
+  font-size: 2rem;
+  letter-spacing: 2px;
+  font-weight: normal;
 }
 
+.menu4 h2::after {
+  content: "";
+  transform: scaleX(0);
+  position: relative;
+  left: 37%;
+  bottom: 36%;
+  transform-origin: 0% 50%;
+  width: 26%;
+  height: 2px;
+  background-color: black;
+  transition: transform 450ms;
+}
+.menu4 h2:hover::after {
+  transform: scaleX(1);
+}
+
+@media screen and (max-width: 1200px) {
+  .menu4__body__starter__title, .menu4__body__main-course__title, .menu4__body__dessert__title {
+    min-width: 1000px;
+  }
+}
+@media screen and (max-width: 992px) {
+  .menu4__header__name {
+    min-width: 462px;
+    font-size: 4rem;
+  }
+  .menu4__body {
+    min-width: 750px;
+  }
+  .menu4__body__starter {
+    min-width: 750px;
+  }
+  .menu4__body__starter__title {
+    min-width: 750px;
+  }
+  .menu4__body__starter__title__line {
+    width: 222px;
+  }
+  .menu4__body__starter__list {
+    min-width: 750px;
+  }
+  .menu4__body__starter__list__element {
+    min-width: 750px;
+  }
+  .menu4__body__starter__list__element__name {
+    font-size: 1.2rem;
+  }
+  .menu4__body__starter__list__element__price {
+    font-size: 1.5rem;
+  }
+  .menu4__body__main-course {
+    min-width: 750px;
+  }
+  .menu4__body__main-course__title {
+    min-width: 750px;
+  }
+  .menu4__body__main-course__title__line {
+    width: 222px;
+  }
+  .menu4__body__main-course__list {
+    min-width: 750px;
+  }
+  .menu4__body__main-course__list__element {
+    min-width: 750px;
+  }
+  .menu4__body__main-course__list__element__name {
+    font-size: 1.2rem;
+  }
+  .menu4__body__main-course__list__element__price {
+    font-size: 1.5rem;
+  }
+  .menu4__body__dessert {
+    min-width: 750px;
+  }
+  .menu4__body__dessert__title {
+    min-width: 750px;
+  }
+  .menu4__body__dessert__title__line {
+    width: 222px;
+  }
+  .menu4__body__dessert__list {
+    min-width: 750px;
+  }
+  .menu4__body__dessert__list__element {
+    min-width: 750px;
+  }
+  .menu4__body__dessert__list__element__name {
+    font-size: 1.2rem;
+  }
+  .menu4__body__dessert__list__element__price {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .menu4 {
+    padding-bottom: 100px;
+    min-height: 1208px;
+  }
+  .menu4__header {
+    margin-top: 100px;
+  }
+  .menu4__header__name {
+    min-width: 295px;
+    font-size: 2.5rem;
+  }
+  .menu4__body {
+    min-width: 320px;
+  }
+  .menu4__body__starter {
+    min-width: 320px;
+  }
+  .menu4__body__starter__title {
+    min-width: 320px;
+  }
+  .menu4__body__starter__title__h2 {
+    font-size: 1.5rem;
+  }
+  .menu4__body__starter__title__line {
+    width: 100px;
+  }
+  .menu4__body__starter__list {
+    min-width: 320px;
+    max-width: 320px;
+  }
+  .menu4__body__starter__list__element {
+    min-width: 320px;
+    max-width: 320px;
+  }
+  .menu4__body__starter__list__element__name {
+    font-size: 1rem;
+  }
+  .menu4__body__starter__list__element__price {
+    font-size: 1.2rem;
+  }
+  .menu4__body__main-course {
+    min-width: 320px;
+  }
+  .menu4__body__main-course__title {
+    min-width: 320px;
+  }
+  .menu4__body__main-course__title__h2 {
+    font-size: 1.5rem;
+  }
+  .menu4__body__main-course__title__line {
+    width: 100px;
+  }
+  .menu4__body__main-course__list {
+    min-width: 320px;
+    max-width: 320px;
+  }
+  .menu4__body__main-course__list__element {
+    min-width: 320px;
+    max-width: 320px;
+  }
+  .menu4__body__main-course__list__element__name {
+    font-size: 1rem;
+  }
+  .menu4__body__main-course__list__element__price {
+    font-size: 1.2rem;
+  }
+  .menu4__body__dessert {
+    min-width: 320px;
+  }
+  .menu4__body__dessert__title {
+    min-width: 320px;
+  }
+  .menu4__body__dessert__title__h2 {
+    font-size: 1.5rem;
+  }
+  .menu4__body__dessert__title__line {
+    width: 100px;
+  }
+  .menu4__body__dessert__list {
+    min-width: 320px;
+    max-width: 320px;
+  }
+  .menu4__body__dessert__list__element {
+    min-width: 320px;
+    max-width: 320px;
+  }
+  .menu4__body__dessert__list__element__name {
+    font-size: 1rem;
+  }
+  .menu4__body__dessert__list__element__price {
+    font-size: 1.2rem;
+  }
+}
 .footer {
   width: 100%;
   height: 136px;
