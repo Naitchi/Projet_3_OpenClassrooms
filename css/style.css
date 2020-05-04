@@ -1509,11 +1509,11 @@ body {
 .menu4 h2::after {
   content: "";
   transform: scaleX(0);
-  position: relative;
-  left: 37%;
-  bottom: 36%;
+  position: absolute;
+  left: 38%;
+  bottom: 47%;
   transform-origin: 0% 50%;
-  width: 26%;
+  width: 90px;
   height: 2px;
   background-color: black;
   transition: transform 450ms;
