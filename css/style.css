@@ -513,19 +513,19 @@ body {
     font-size: 4rem;
   }
   .menu1__starter {
-    min-width: 750px;
+    min-width: 90%;
   }
   .menu1__starter__title {
-    min-width: 750px;
+    min-width: 100%;
   }
   .menu1__starter__title__line {
     width: 222px;
   }
   .menu1__starter__list {
-    min-width: 750px;
+    min-width: 90%;
   }
   .menu1__starter__list__element {
-    min-width: 750px;
+    min-width: 100%;
   }
   .menu1__starter__list__element__name {
     font-size: 1.2rem;
@@ -534,19 +534,19 @@ body {
     font-size: 1.5rem;
   }
   .menu1__main-course {
-    min-width: 750px;
+    min-width: 90%;
   }
   .menu1__main-course__title {
-    min-width: 750px;
+    min-width: 100%;
   }
   .menu1__main-course__title__line {
     width: 222px;
   }
   .menu1__main-course__list {
-    min-width: 750px;
+    min-width: 90%;
   }
   .menu1__main-course__list__element {
-    min-width: 750px;
+    min-width: 100%;
   }
   .menu1__main-course__list__element__name {
     font-size: 1.2rem;
@@ -555,19 +555,19 @@ body {
     font-size: 1.5rem;
   }
   .menu1__dessert {
-    min-width: 750px;
+    min-width: 90%;
   }
   .menu1__dessert__title {
-    min-width: 750px;
+    min-width: 100%;
   }
   .menu1__dessert__title__line {
     width: 222px;
   }
   .menu1__dessert__list {
-    min-width: 750px;
+    min-width: 90%;
   }
   .menu1__dessert__list__element {
-    min-width: 750px;
+    min-width: 100%;
   }
   .menu1__dessert__list__element__name {
     font-size: 1.2rem;
@@ -908,13 +908,13 @@ body {
     font-size: 4rem;
   }
   .menu2__body {
-    min-width: 750px;
+    min-width: 100%;
   }
   .menu2__body__starter {
-    min-width: 750px;
+    min-width: 90%;
   }
   .menu2__body__starter__title {
-    min-width: 750px;
+    min-width: 100%;
   }
   .menu2__body__starter__title__h2 {
     font-size: 1.5rem;
@@ -923,10 +923,10 @@ body {
     width: 222px;
   }
   .menu2__body__starter__list {
-    min-width: 750px;
+    min-width: 90%;
   }
   .menu2__body__starter__list__element {
-    min-width: 750px;
+    min-width: 100%;
   }
   .menu2__body__starter__list__element__name {
     font-size: 1.2rem;
@@ -935,10 +935,10 @@ body {
     font-size: 1.5rem;
   }
   .menu2__body__main-course {
-    min-width: 750px;
+    min-width: 90%;
   }
   .menu2__body__main-course__title {
-    min-width: 750px;
+    min-width: 100%;
   }
   .menu2__body__main-course__title__h2 {
     font-size: 1.5rem;
@@ -947,10 +947,10 @@ body {
     width: 222px;
   }
   .menu2__body__main-course__list {
-    min-width: 750px;
+    min-width: 90%;
   }
   .menu2__body__main-course__list__element {
-    min-width: 750px;
+    min-width: 100%;
   }
   .menu2__body__main-course__list__element__name {
     font-size: 1.2rem;
@@ -959,10 +959,10 @@ body {
     font-size: 1.5rem;
   }
   .menu2__body__dessert {
-    min-width: 750px;
+    min-width: 90%;
   }
   .menu2__body__dessert__title {
-    min-width: 750px;
+    min-width: 100%;
   }
   .menu2__body__dessert__title__h2 {
     font-size: 1.5rem;
@@ -971,10 +971,10 @@ body {
     width: 222px;
   }
   .menu2__body__dessert__list {
-    min-width: 750px;
+    min-width: 90%;
   }
   .menu2__body__dessert__list__element {
-    min-width: 750px;
+    min-width: 100%;
   }
   .menu2__body__dessert__list__element__name {
     font-size: 1.2rem;
@@ -1313,22 +1313,22 @@ body {
     font-size: 4rem;
   }
   .menu3__body {
-    min-width: 750px;
+    min-width: 100%;
   }
   .menu3__body__starter {
-    min-width: 750px;
+    min-width: 90%;
   }
   .menu3__body__starter__title {
-    min-width: 750px;
+    min-width: 100%;
   }
   .menu3__body__starter__title__line {
     width: 222px;
   }
   .menu3__body__starter__list {
-    min-width: 750px;
+    min-width: 90%;
   }
   .menu3__body__starter__list__element {
-    min-width: 750px;
+    min-width: 100%;
   }
   .menu3__body__starter__list__element__name {
     font-size: 1.2rem;
@@ -1337,19 +1337,19 @@ body {
     font-size: 1.5rem;
   }
   .menu3__body__main-course {
-    min-width: 750px;
+    min-width: 90%;
   }
   .menu3__body__main-course__title {
-    min-width: 750px;
+    min-width: 100%;
   }
   .menu3__body__main-course__title__line {
     width: 222px;
   }
   .menu3__body__main-course__list {
-    min-width: 750px;
+    min-width: 90%;
   }
   .menu3__body__main-course__list__element {
-    min-width: 750px;
+    min-width: 100%;
   }
   .menu3__body__main-course__list__element__name {
     font-size: 1.2rem;
@@ -1358,19 +1358,19 @@ body {
     font-size: 1.5rem;
   }
   .menu3__body__dessert {
-    min-width: 750px;
+    min-width: 90%;
   }
   .menu3__body__dessert__title {
-    min-width: 750px;
+    min-width: 100%;
   }
   .menu3__body__dessert__title__line {
     width: 222px;
   }
   .menu3__body__dessert__list {
-    min-width: 750px;
+    min-width: 90%;
   }
   .menu3__body__dessert__list__element {
-    min-width: 750px;
+    min-width: 100%;
   }
   .menu3__body__dessert__list__element__name {
     font-size: 1.2rem;
@@ -1709,22 +1709,22 @@ body {
     font-size: 4rem;
   }
   .menu4__body {
-    min-width: 750px;
+    min-width: 100%;
   }
   .menu4__body__starter {
-    min-width: 750px;
+    min-width: 90%;
   }
   .menu4__body__starter__title {
-    min-width: 750px;
+    min-width: 100%;
   }
   .menu4__body__starter__title__line {
     width: 222px;
   }
   .menu4__body__starter__list {
-    min-width: 750px;
+    min-width: 90%;
   }
   .menu4__body__starter__list__element {
-    min-width: 750px;
+    min-width: 100%;
   }
   .menu4__body__starter__list__element__name {
     font-size: 1.2rem;
@@ -1733,19 +1733,19 @@ body {
     font-size: 1.5rem;
   }
   .menu4__body__main-course {
-    min-width: 750px;
+    min-width: 90%;
   }
   .menu4__body__main-course__title {
-    min-width: 750px;
+    min-width: 100%;
   }
   .menu4__body__main-course__title__line {
     width: 222px;
   }
   .menu4__body__main-course__list {
-    min-width: 750px;
+    min-width: 90%;
   }
   .menu4__body__main-course__list__element {
-    min-width: 750px;
+    min-width: 100%;
   }
   .menu4__body__main-course__list__element__name {
     font-size: 1.2rem;
@@ -1754,19 +1754,19 @@ body {
     font-size: 1.5rem;
   }
   .menu4__body__dessert {
-    min-width: 750px;
+    min-width: 90%;
   }
   .menu4__body__dessert__title {
-    min-width: 750px;
+    min-width: 100%;
   }
   .menu4__body__dessert__title__line {
     width: 222px;
   }
   .menu4__body__dessert__list {
-    min-width: 750px;
+    min-width: 100%;
   }
   .menu4__body__dessert__list__element {
-    min-width: 750px;
+    min-width: 90%;
   }
   .menu4__body__dessert__list__element__name {
     font-size: 1.2rem;
