@@ -59,6 +59,12 @@
                 align-items: center;
                 min-width: 1099px;
 
+                &__line{
+                    &.--right{
+                        transform: scaleX(-1);
+                    }
+                }
+
                 &__h2{
                     font-size: 2rem;
                     font-family: 'Noto Serif', serif;
@@ -133,6 +139,12 @@
                 align-items: center;
                 min-width: 1099px;
 
+                &__line{
+                    &.--right{
+                        transform: scaleX(-1);
+                    }
+                }
+
                 &__h2{
                     font-size: 2rem;
                     font-family: 'Noto Serif', serif;
@@ -206,6 +218,12 @@
                 align-items: center;
                 min-width: 1099px;
 
+                &__line{
+                    &.--right{
+                        transform: scaleX(-1);
+                    }
+                }
+
                 &__h2{
                     font-size: 2rem;
                     font-family: 'Noto Serif', serif;
@@ -219,10 +237,8 @@
                         background-color: $f-color_menu2_bottom;
                         display: block;
                         transition: transform 450ms;
-                    }
-                    
+                    }      
                     &:hover {
-                        
                         &::after {
                             transform: scaleX(1);
                         }

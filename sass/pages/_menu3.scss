@@ -56,6 +56,12 @@
                 align-items: center;
                 min-width: 1000px;
 
+                &__line{
+                    &.--right{
+                        transform: scaleX(-1);
+                    }
+                }
+
                 &__h2{
                     font-size: 2rem;
                     font-family: 'Sriracha', cursive;
@@ -90,14 +96,12 @@
                 min-width: 937px;
                 min-height: 185px;
 
-
                 &__element{
                     display: flex;
                     flex-direction: row;
                     justify-content: space-between;
 
                     min-width: 844px;
-
 
                     &__name{
                         font-family: 'Sriracha', cursive;
@@ -132,6 +136,12 @@
                 align-items: center;
                 min-width: 1000px;
 
+                &__line{
+                    &.--right{
+                        transform: scaleX(-1);
+                    }
+                }
+
                 &__h2{
                     font-size: 2rem;
                     font-family: 'Sriracha', cursive;
@@ -147,9 +157,7 @@
                         display: block;
                         transition: transform 450ms;
                     }
-                    
                     &:hover {
-                        
                         &::after {
                             transform: scaleX(1);
                         }
@@ -206,6 +214,12 @@
                 align-items: center;
                 min-width: 1000px;
 
+                &__line{
+                    &.--right{
+                        transform: scaleX(-1);
+                    }
+                }
+                
                 &__h2{
                     font-size: 2rem;
                     font-family: 'Sriracha', cursive;
