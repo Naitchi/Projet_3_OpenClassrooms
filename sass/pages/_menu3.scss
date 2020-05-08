@@ -45,7 +45,7 @@
             justify-content: space-between;
             align-items: center;
 
-            min-width: 1074px;
+            min-width: 1000px;
             min-height: 281px;
 
 
@@ -54,13 +54,30 @@
                 flex-direction: row;
                 justify-content: space-between;
                 align-items: center;
-                min-width: 1074px;
+                min-width: 1000px;
 
                 &__h2{
                     font-size: 2rem;
                     font-family: 'Sriracha', cursive;
                     font-weight: normal;
                     text-align: center;
+                    &::after {
+                        content: "";
+                        transform: scaleX(0);
+                        transform-origin: 0% 50%;
+                        width: 100%;
+                        height: 2px;
+                        background-color: black;
+                        display: block;
+                        transition: transform 450ms;
+                    }
+                    
+                    &:hover {
+                        
+                        &::after {
+                            transform: scaleX(1);
+                        }
+                    }  
                 }
             }
 
@@ -104,7 +121,7 @@
             justify-content: space-between;
             align-items: center;
 
-            min-width: 1074px;
+            min-width: 1000px;
             min-height: 278px;
             margin-top: 10px;
 
@@ -113,13 +130,30 @@
                 flex-direction: row;
                 justify-content: space-between;
                 align-items: center;
-                min-width: 1074px;
+                min-width: 1000px;
 
                 &__h2{
                     font-size: 2rem;
                     font-family: 'Sriracha', cursive;
                     font-weight: normal;
                     text-align: center;
+                    &::after {
+                        content: "";
+                        transform: scaleX(0);
+                        transform-origin: 0% 50%;
+                        width: 100%;
+                        height: 2px;
+                        background-color: black;
+                        display: block;
+                        transition: transform 450ms;
+                    }
+                    
+                    &:hover {
+                        
+                        &::after {
+                            transform: scaleX(1);
+                        }
+                    }  
                 }
             }
 
@@ -162,7 +196,7 @@
             justify-content: space-between;
             align-items: center;
 
-            min-width: 1074px;
+            min-width: 1000px;
             min-height: 288px;
 
             &__title{
@@ -170,13 +204,30 @@
                 flex-direction: row;
                 justify-content: space-between;
                 align-items: center;
-                min-width: 1074px;
+                min-width: 1000px;
 
                 &__h2{
                     font-size: 2rem;
                     font-family: 'Sriracha', cursive;
                     font-weight: normal;
                     text-align: center;
+                    &::after {
+                        content: "";
+                        transform: scaleX(0);
+                        transform-origin: 0% 50%;
+                        width: 100%;
+                        height: 2px;
+                        background-color: black;
+                        display: block;
+                        transition: transform 450ms;
+                    }
+                    
+                    &:hover {
+                        
+                        &::after {
+                            transform: scaleX(1);
+                        }
+                    }  
                 }
             }
 
@@ -321,10 +372,10 @@
                 &__title{
                     min-width: 320px;
                     &__h2{
-                        font-size: 1.5rem;
+                        font-size: 1rem;
                     }
                     &__line{
-                        width: 100px;
+                        width: 70px;
                     }
                 }
                 &__list{
@@ -348,10 +399,10 @@
                 &__title{
                     min-width: 320px;
                     &__h2{
-                        font-size: 1.5rem;
+                        font-size: 1rem;
                     }
                     &__line{
-                        width: 100px;
+                        width: 70px;
                     }
                 }
                 &__list{
@@ -375,10 +426,10 @@
                 &__title{
                     min-width: 320px;
                     &__h2{
-                        font-size: 1.5rem;
+                        font-size: 1rem;
                     }
                     &__line{
-                        width: 100px;
+                        width: 70px;
                     }
                 }
                 &__list{

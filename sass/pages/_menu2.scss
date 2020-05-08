@@ -63,6 +63,23 @@
                     font-size: 2rem;
                     font-family: 'Noto Serif', serif;
                     text-align: center;
+                    &::after {
+                        content: "";
+                        transform: scaleX(0);
+                        transform-origin: 0% 50%;
+                        width: 100%;
+                        height: 2px;
+                        background-color: $f-color_menu2;
+                        display: block;
+                        transition: transform 450ms;
+                    }
+                    
+                    &:hover {
+                        
+                        &::after {
+                            transform: scaleX(1);
+                        }
+                    }    
                 }
             }
 
@@ -120,6 +137,23 @@
                     font-size: 2rem;
                     font-family: 'Noto Serif', serif;
                     text-align: center;
+                    &::after {
+                        content: "";
+                        transform: scaleX(0);
+                        transform-origin: 0% 50%;
+                        width: 100%;
+                        height: 2px;
+                        background-color: $f-color_menu2_middle;
+                        display: block;
+                        transition: transform 450ms;
+                    }
+                    
+                    &:hover {
+                        
+                        &::after {
+                            transform: scaleX(1);
+                        }
+                    }    
                 }
             }
 
@@ -176,6 +210,23 @@
                     font-size: 2rem;
                     font-family: 'Noto Serif', serif;
                     text-align: center;
+                    &::after {
+                        content: "";
+                        transform: scaleX(0);
+                        transform-origin: 0% 50%;
+                        width: 100%;
+                        height: 2px;
+                        background-color: $f-color_menu2_bottom;
+                        display: block;
+                        transition: transform 450ms;
+                    }
+                    
+                    &:hover {
+                        
+                        &::after {
+                            transform: scaleX(1);
+                        }
+                    }    
                 }
             }
 
@@ -236,6 +287,9 @@
                 min-width: 750px;
                 &__title{
                     min-width: 750px;
+                    &__h2{
+                        font-size: 1.5rem;
+                    }
                     &__line{
                         width: 222px;
                     }
@@ -258,6 +312,9 @@
                 min-width: 750px;
                 &__title{
                     min-width: 750px;
+                    &__h2{
+                        font-size: 1.5rem;
+                    }
                     &__line{
                         width: 222px;
                     }
@@ -280,6 +337,9 @@
                 min-width: 750px;
                 &__title{
                     min-width: 750px;
+                    &__h2{
+                        font-size: 1.5rem;
+                    }
                     &__line{
                         width: 222px;
                     }
@@ -322,10 +382,10 @@
                 &__title{
                     min-width: 320px;
                     &__h2{
-                        font-size: 1.5rem;
+                        font-size: 1rem;
                     }
                     &__line{
-                        width: 100px;
+                        width: 56px;
                     }
                 }
                 &__list{
@@ -349,10 +409,10 @@
                 &__title{
                     min-width: 320px;
                     &__h2{
-                        font-size: 1.5rem;
+                        font-size: 1rem;
                     }
                     &__line{
-                        width: 100px;
+                        width: 70px;
                     }
                 }
                 &__list{
@@ -379,7 +439,7 @@
                         font-size: 1rem;
                     }
                     &__line{
-                        width: 100px;
+                        width: 70px;
                     }
                 }
                 &__list{

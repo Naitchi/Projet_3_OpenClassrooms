@@ -328,6 +328,19 @@ body {
   font-family: "Sriracha", cursive;
   text-align: center;
 }
+.menu1__starter__title__h2::after {
+  content: "";
+  transform: scaleX(0);
+  transform-origin: 0% 50%;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  display: block;
+  transition: transform 450ms;
+}
+.menu1__starter__title__h2:hover::after {
+  transform: scaleX(1);
+}
 .menu1__starter__list {
   display: flex;
   flex-direction: column;
@@ -372,6 +385,19 @@ body {
   font-size: 2.4rem;
   font-family: "Sriracha", cursive;
   text-align: center;
+}
+.menu1__main-course__title__h2::after {
+  content: "";
+  transform: scaleX(0);
+  transform-origin: 0% 50%;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  display: block;
+  transition: transform 450ms;
+}
+.menu1__main-course__title__h2:hover::after {
+  transform: scaleX(1);
 }
 .menu1__main-course__list {
   display: flex;
@@ -418,6 +444,19 @@ body {
   font-size: 2.4rem;
   font-family: "Sriracha", cursive;
   text-align: center;
+}
+.menu1__dessert__title__h2::after {
+  content: "";
+  transform: scaleX(0);
+  transform-origin: 0% 50%;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  display: block;
+  transition: transform 450ms;
+}
+.menu1__dessert__title__h2:hover::after {
+  transform: scaleX(1);
 }
 .menu1__dessert__list {
   display: flex;
@@ -559,7 +598,7 @@ body {
     font-size: 1.5rem;
   }
   .menu1__starter__title__line {
-    width: 100px;
+    width: 80px;
   }
   .menu1__starter__list {
     min-width: 320px;
@@ -585,7 +624,7 @@ body {
     font-size: 1.5rem;
   }
   .menu1__main-course__title__line {
-    width: 100px;
+    width: 80px;
   }
   .menu1__main-course__list {
     min-width: 320px;
@@ -611,7 +650,7 @@ body {
     font-size: 1.2rem;
   }
   .menu1__dessert__title__line {
-    width: 100px;
+    width: 80px;
   }
   .menu1__dessert__list {
     min-width: 320px;
@@ -691,6 +730,19 @@ body {
   font-family: "Noto Serif", serif;
   text-align: center;
 }
+.menu2__body__starter__title__h2::after {
+  content: "";
+  transform: scaleX(0);
+  transform-origin: 0% 50%;
+  width: 100%;
+  height: 2px;
+  background-color: #C77412;
+  display: block;
+  transition: transform 450ms;
+}
+.menu2__body__starter__title__h2:hover::after {
+  transform: scaleX(1);
+}
 .menu2__body__starter__list {
   display: flex;
   flex-direction: column;
@@ -735,6 +787,19 @@ body {
   font-size: 2rem;
   font-family: "Noto Serif", serif;
   text-align: center;
+}
+.menu2__body__main-course__title__h2::after {
+  content: "";
+  transform: scaleX(0);
+  transform-origin: 0% 50%;
+  width: 100%;
+  height: 2px;
+  background-color: #A56799;
+  display: block;
+  transition: transform 450ms;
+}
+.menu2__body__main-course__title__h2:hover::after {
+  transform: scaleX(1);
 }
 .menu2__body__main-course__list {
   display: flex;
@@ -781,6 +846,19 @@ body {
   font-size: 2rem;
   font-family: "Noto Serif", serif;
   text-align: center;
+}
+.menu2__body__dessert__title__h2::after {
+  content: "";
+  transform: scaleX(0);
+  transform-origin: 0% 50%;
+  width: 100%;
+  height: 2px;
+  background-color: #6E4CCC;
+  display: block;
+  transition: transform 450ms;
+}
+.menu2__body__dessert__title__h2:hover::after {
+  transform: scaleX(1);
 }
 .menu2__body__dessert__list {
   display: flex;
@@ -829,6 +907,9 @@ body {
   .menu2__body__starter__title {
     min-width: 750px;
   }
+  .menu2__body__starter__title__h2 {
+    font-size: 1.5rem;
+  }
   .menu2__body__starter__title__line {
     width: 222px;
   }
@@ -850,6 +931,9 @@ body {
   .menu2__body__main-course__title {
     min-width: 750px;
   }
+  .menu2__body__main-course__title__h2 {
+    font-size: 1.5rem;
+  }
   .menu2__body__main-course__title__line {
     width: 222px;
   }
@@ -870,6 +954,9 @@ body {
   }
   .menu2__body__dessert__title {
     min-width: 750px;
+  }
+  .menu2__body__dessert__title__h2 {
+    font-size: 1.5rem;
   }
   .menu2__body__dessert__title__line {
     width: 222px;
@@ -910,10 +997,10 @@ body {
     min-width: 320px;
   }
   .menu2__body__starter__title__h2 {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .menu2__body__starter__title__line {
-    width: 100px;
+    width: 56px;
   }
   .menu2__body__starter__list {
     min-width: 320px;
@@ -936,10 +1023,10 @@ body {
     min-width: 320px;
   }
   .menu2__body__main-course__title__h2 {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .menu2__body__main-course__title__line {
-    width: 100px;
+    width: 70px;
   }
   .menu2__body__main-course__list {
     min-width: 320px;
@@ -965,7 +1052,7 @@ body {
     font-size: 1rem;
   }
   .menu2__body__dessert__title__line {
-    width: 100px;
+    width: 70px;
   }
   .menu2__body__dessert__list {
     min-width: 320px;
@@ -1022,7 +1109,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  min-width: 1074px;
+  min-width: 1000px;
   min-height: 281px;
 }
 .menu3__body__starter__title {
@@ -1030,13 +1117,26 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  min-width: 1074px;
+  min-width: 1000px;
 }
 .menu3__body__starter__title__h2 {
   font-size: 2rem;
   font-family: "Sriracha", cursive;
   font-weight: normal;
   text-align: center;
+}
+.menu3__body__starter__title__h2::after {
+  content: "";
+  transform: scaleX(0);
+  transform-origin: 0% 50%;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  display: block;
+  transition: transform 450ms;
+}
+.menu3__body__starter__title__h2:hover::after {
+  transform: scaleX(1);
 }
 .menu3__body__starter__list {
   display: flex;
@@ -1068,7 +1168,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  min-width: 1074px;
+  min-width: 1000px;
   min-height: 278px;
   margin-top: 10px;
 }
@@ -1077,13 +1177,26 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  min-width: 1074px;
+  min-width: 1000px;
 }
 .menu3__body__main-course__title__h2 {
   font-size: 2rem;
   font-family: "Sriracha", cursive;
   font-weight: normal;
   text-align: center;
+}
+.menu3__body__main-course__title__h2::after {
+  content: "";
+  transform: scaleX(0);
+  transform-origin: 0% 50%;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  display: block;
+  transition: transform 450ms;
+}
+.menu3__body__main-course__title__h2:hover::after {
+  transform: scaleX(1);
 }
 .menu3__body__main-course__list {
   display: flex;
@@ -1116,7 +1229,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  min-width: 1074px;
+  min-width: 1000px;
   min-height: 288px;
 }
 .menu3__body__dessert__title {
@@ -1124,13 +1237,26 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  min-width: 1074px;
+  min-width: 1000px;
 }
 .menu3__body__dessert__title__h2 {
   font-size: 2rem;
   font-family: "Sriracha", cursive;
   font-weight: normal;
   text-align: center;
+}
+.menu3__body__dessert__title__h2::after {
+  content: "";
+  transform: scaleX(0);
+  transform-origin: 0% 50%;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  display: block;
+  transition: transform 450ms;
+}
+.menu3__body__dessert__title__h2:hover::after {
+  transform: scaleX(1);
 }
 .menu3__body__dessert__list {
   display: flex;
@@ -1257,10 +1383,10 @@ body {
     min-width: 320px;
   }
   .menu3__body__starter__title__h2 {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .menu3__body__starter__title__line {
-    width: 100px;
+    width: 70px;
   }
   .menu3__body__starter__list {
     min-width: 320px;
@@ -1283,10 +1409,10 @@ body {
     min-width: 320px;
   }
   .menu3__body__main-course__title__h2 {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .menu3__body__main-course__title__line {
-    width: 100px;
+    width: 70px;
   }
   .menu3__body__main-course__list {
     min-width: 320px;
@@ -1309,10 +1435,10 @@ body {
     min-width: 320px;
   }
   .menu3__body__dessert__title__h2 {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .menu3__body__dessert__title__line {
-    width: 100px;
+    width: 70px;
   }
   .menu3__body__dessert__list {
     min-width: 320px;
@@ -1370,7 +1496,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  min-width: 1074px;
+  min-width: 1000px;
   min-height: 281px;
 }
 .menu4__body__starter__title {
@@ -1385,6 +1511,19 @@ body {
   font-family: "Sriracha", cursive;
   font-weight: normal;
   text-align: center;
+}
+.menu4__body__starter__title__h2::after {
+  content: "";
+  transform: scaleX(0);
+  transform-origin: 0% 50%;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  display: block;
+  transition: transform 450ms;
+}
+.menu4__body__starter__title__h2:hover::after {
+  transform: scaleX(1);
 }
 .menu4__body__starter__list {
   display: flex;
@@ -1416,7 +1555,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  min-width: 1074px;
+  min-width: 1000px;
   min-height: 278px;
   margin-top: 10px;
 }
@@ -1432,6 +1571,19 @@ body {
   font-family: "Sriracha", cursive;
   font-weight: normal;
   text-align: center;
+}
+.menu4__body__main-course__title__h2::after {
+  content: "";
+  transform: scaleX(0);
+  transform-origin: 0% 50%;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  display: block;
+  transition: transform 450ms;
+}
+.menu4__body__main-course__title__h2:hover::after {
+  transform: scaleX(1);
 }
 .menu4__body__main-course__list {
   display: flex;
@@ -1464,7 +1616,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  min-width: 1074px;
+  min-width: 1000px;
   min-height: 288px;
 }
 .menu4__body__dessert__title {
@@ -1479,6 +1631,19 @@ body {
   font-family: "Sriracha", cursive;
   font-weight: normal;
   text-align: center;
+}
+.menu4__body__dessert__title__h2::after {
+  content: "";
+  transform: scaleX(0);
+  transform-origin: 0% 50%;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+  display: block;
+  transition: transform 450ms;
+}
+.menu4__body__dessert__title__h2:hover::after {
+  transform: scaleX(1);
 }
 .menu4__body__dessert__list {
   display: flex;
@@ -1504,22 +1669,6 @@ body {
   font-size: 2rem;
   letter-spacing: 2px;
   font-weight: normal;
-}
-
-.menu4 h2::after {
-  content: "";
-  transform: scaleX(0);
-  position: absolute;
-  left: 38%;
-  bottom: 47%;
-  transform-origin: 0% 50%;
-  width: 90px;
-  height: 2px;
-  background-color: black;
-  transition: transform 450ms;
-}
-.menu4 h2:hover::after {
-  transform: scaleX(1);
 }
 
 @media screen and (max-width: 1200px) {
@@ -1621,10 +1770,10 @@ body {
     min-width: 320px;
   }
   .menu4__body__starter__title__h2 {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .menu4__body__starter__title__line {
-    width: 100px;
+    width: 70px;
   }
   .menu4__body__starter__list {
     min-width: 320px;
@@ -1647,10 +1796,10 @@ body {
     min-width: 320px;
   }
   .menu4__body__main-course__title__h2 {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .menu4__body__main-course__title__line {
-    width: 100px;
+    width: 70px;
   }
   .menu4__body__main-course__list {
     min-width: 320px;
@@ -1673,10 +1822,10 @@ body {
     min-width: 320px;
   }
   .menu4__body__dessert__title__h2 {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
   .menu4__body__dessert__title__line {
-    width: 100px;
+    width: 70px;
   }
   .menu4__body__dessert__list {
     min-width: 320px;
