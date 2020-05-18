@@ -5,6 +5,7 @@
     align-items: center;
     min-height: 2200px;
     width: 85%;
+    margin-top: 8rem;
 
     &__list{
 
@@ -173,7 +174,7 @@
         color: $secondary-color;
         font-size: 4rem;
         border-radius: 1.4rem;
-        margin-bottom: 15.3rem;
+        margin-bottom: 10.3rem;
 
         &__point{
             animation : soon backwards infinite ease-in-out $anim-dur;

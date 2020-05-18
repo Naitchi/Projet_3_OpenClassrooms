@@ -2,14 +2,18 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 244px;
+    min-height: 122px;
     background-color: $main-color;
     width: 100%;
     border-bottom: solid $border-color 1px;
 
+    position: fixed;
+    top:0;
+	left:0;
+
     &__title{
-        font-size: 6.5rem;
-        font-weight: bold;
+        font-size: 3.25rem;
+        font-weight: bold; 
         color: $secondary-color;
     }
 }   
