@@ -20,10 +20,10 @@
 
 @include screen-sm {
     .header{
-        min-height: 150px;
+        min-height: 75px;
 
         &__title{
-            font-size: 4rem;
+            font-size: 2rem;
         }
     }
 }
