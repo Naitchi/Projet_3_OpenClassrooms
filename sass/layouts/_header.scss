@@ -9,7 +9,8 @@
 
     position: fixed;
     top:0;
-	left:0;
+    left:0;
+    z-index:1;
 
     &__title{
         font-size: 3.25rem;

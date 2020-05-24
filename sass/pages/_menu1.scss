@@ -1,3 +1,19 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-items: space-around;
+    align-items: center;
+    width: 100%;
+    margin-right: 0;
+}
+
+.menu-name{
+    margin: 11rem 0 1rem 0;
+    font-size:3.5rem ;
+    font-weight: bold; 
+    text-align: center;
+}
+
 .menu1{
     display: flex;
     flex-direction: column;
@@ -5,9 +21,8 @@
     align-items: center;
 
     min-height: 1634px;
-    min-width: 100%;
+    min-width: 80%;
     margin-bottom: 137px;
-    margin-top: 7rem;
     color: $f-color_menu1;
     background: $background-color_menu1;
 
@@ -271,7 +286,7 @@
 
 @include screen-xl {
     .menu1__body__starter__title, .menu1__body__main-course__title, .menu1__body__dessert__title{
-            min-width: 1000px;
+            min-width: 100%;
     }
 }
 
@@ -286,15 +301,15 @@
         }
         
         &__starter{
-            min-width: 90%;
+            min-width: 100%;
             &__title{
                 min-width: 100%;
                 &__line{
-                    width: 222px;
+                    width: 173px;
                 }
             }
             &__list{
-                min-width: 90%;
+                min-width: 100%;
                 &__element{
                     min-width: 100%;
                     &__name{
@@ -308,15 +323,15 @@
         }
         
         &__main-course{
-            min-width: 90%;
+            min-width: 100%;
             &__title{
                 min-width: 100%;
                 &__line{
-                    width: 222px;
+                    width: 173px;
                 }
             }
             &__list{
-                min-width: 90%;
+                min-width: 100%;
                 &__element{
                     min-width: 100%;
                     &__name{
@@ -330,15 +345,18 @@
         }
         
         &__dessert{
-            min-width: 90%;
+            min-width: 100%;
             &__title{
                 min-width: 100%;
+                &__h2{
+                    font-size: 1.9rem;
+                }
                 &__line{
-                    width: 222px;
+                    width: 173px;
                 }
             }
             &__list{
-                min-width: 90%;
+                min-width: 100%;
                 &__element{
                     min-width: 100%;
                     &__name{

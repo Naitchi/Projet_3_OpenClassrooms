@@ -1,3 +1,19 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-items: space-around;
+    align-items: center;
+    width: 100%;
+    margin-right: 0;
+}
+
+.menu-name{
+    margin: 11rem 0 1rem 0;
+    font-size:3.5rem ;
+    font-weight: bold; 
+    text-align: center;
+}
+
 .menu3{
     display: flex;
     flex-direction: column;
@@ -5,10 +21,9 @@
     align-items: center;
 
     min-height: 1381px;
-    min-width: 100%;
+    min-width: 80%;
     margin-bottom: 137px;
     padding-bottom: 150px;
-    margin-top: 7rem;
     background: $background-color_menu3;
     color: black;
 
@@ -46,7 +61,7 @@
             justify-content: space-between;
             align-items: center;
 
-            min-width: 1000px;
+            min-width: 100%;
             min-height: 281px;
 
 
@@ -55,7 +70,7 @@
                 flex-direction: row;
                 justify-content: space-between;
                 align-items: center;
-                min-width: 1000px;
+                min-width: 100%;
 
                 &__line{
                     &.--right{
@@ -126,7 +141,7 @@
             justify-content: space-between;
             align-items: center;
 
-            min-width: 1000px;
+            min-width: 100%;
             min-height: 278px;
             margin-top: 10px;
 
@@ -135,7 +150,7 @@
                 flex-direction: row;
                 justify-content: space-between;
                 align-items: center;
-                min-width: 1000px;
+                min-width: 100%;
 
                 &__line{
                     &.--right{
@@ -205,7 +220,7 @@
             justify-content: space-between;
             align-items: center;
 
-            min-width: 1000px;
+            min-width: 100%;
             min-height: 288px;
 
             &__title{
@@ -213,7 +228,7 @@
                 flex-direction: row;
                 justify-content: space-between;
                 align-items: center;
-                min-width: 1000px;
+                min-width: 100%;
 
                 &__line{
                     &.--right{
@@ -282,7 +297,7 @@
 
 @include screen-xl {
     .menu3__body__starter__title, .menu3__body__main-course__title, .menu3__body__dessert__title{
-            min-width: 1000px;
+            min-width: 100%;
     }
 }
 
@@ -299,11 +314,14 @@
             min-width: 100%;
             
             &__starter{
-                min-width: 90%;
+                min-width: 100%;
                 &__title{
                     min-width: 100%;
+                    &__h2{
+                        font-size: 1.5rem;
+                    }
                     &__line{
-                        width: 222px;
+                        width: 173px;
                     }
                 }
                 &__list{
@@ -321,11 +339,14 @@
             }
             
             &__main-course{
-                min-width: 90%;
+                min-width: 100%;
                 &__title{
                     min-width: 100%;
+                    &__h2{
+                        font-size: 1.5rem;
+                    }
                     &__line{
-                        width: 222px;
+                        width: 173px;
                     }
                 }
                 &__list{
@@ -343,11 +364,14 @@
             }
             
             &__dessert{
-                min-width: 90%;
+                min-width: 100%;
                 &__title{
                     min-width: 100%;
+                    &__h2{
+                        font-size: 1.5rem;
+                    }
                     &__line{
-                        width: 222px;
+                        width: 173px;
                     }
                 }
                 &__list{
