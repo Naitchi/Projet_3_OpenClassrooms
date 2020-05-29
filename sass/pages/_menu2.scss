@@ -75,12 +75,6 @@ body{
                 align-items: center;
                 min-width: 1099px;
 
-                &__line{
-                    &.--right{
-                        transform: scaleX(-1);
-                    }
-                }
-
                 &__h2{
                     font-size: 2rem;
                     font-family: 'Noto Serif', serif;
@@ -155,12 +149,6 @@ body{
                 align-items: center;
                 min-width: 1099px;
 
-                &__line{
-                    &.--right{
-                        transform: scaleX(-1);
-                    }
-                }
-
                 &__h2{
                     font-size: 2rem;
                     font-family: 'Noto Serif', serif;
@@ -233,12 +221,6 @@ body{
                 justify-content: space-between;
                 align-items: center;
                 min-width: 1099px;
-
-                &__line{
-                    &.--right{
-                        transform: scaleX(-1);
-                    }
-                }
 
                 &__h2{
                     font-size: 2rem;

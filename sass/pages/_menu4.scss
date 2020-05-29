@@ -73,12 +73,6 @@ body{
                 align-items: center;
                 min-width: 1076px;
 
-                &__line{
-                    &.--right{
-                        transform: scaleX(-1);
-                    }
-                }
-
                 &__h2{
                     font-size: 1.7rem;
                     font-family: 'Sriracha', cursive;
@@ -156,12 +150,6 @@ body{
                 align-items: center;
                 min-width: 1076px;
 
-                &__line{
-                    &.--right{
-                        transform: scaleX(-1);
-                    }
-                }
-
                 &__h2{
                     font-size: 1.7rem;
                     font-family: 'Sriracha', cursive;
@@ -236,12 +224,6 @@ body{
                 justify-content: space-between;
                 align-items: center;
                 min-width: 1076px;
-
-                &__line{
-                    &.--right{
-                        transform: scaleX(-1);
-                    }
-                }
 
                 &__h2{
                     font-size: 1.7rem;
